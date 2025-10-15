@@ -1,5 +1,35 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5eebda;
+    background: linear-gradient(45deg, rgba(94, 235, 218, 1) 0%, rgba(138, 237, 181, 1) 50%, rgba(225, 230, 172, 1) 100%);
+}
+
+.titulo {
+    background: rgb(240, 247, 181);
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+#dominios{
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+.container {
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    margin: 15em 0;
+    border: 2px solid gray;
+    background: whitesmoke;
 }
